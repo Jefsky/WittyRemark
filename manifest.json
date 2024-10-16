@@ -1,0 +1,26 @@
+﻿{
+    "manifest_version": 3,
+    "name": "妙语WittyRemark",
+    "version": "1.0",
+    "icons": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"  
+    },
+    "description": "当你无聊时点我，赠你一句话。When you're bored, click me, and I'll give you a quote.",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon16.png",
+            "48": "icons/icon48.png",
+            "128": "icons/icon128.png"
+        }
+    },
+    "permissions": [
+        "notifications",
+        "activeTab"
+    ]
+}
